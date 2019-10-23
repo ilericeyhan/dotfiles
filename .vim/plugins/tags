@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-@><C-@>S	cscope_maps.vim	/^    nmap <C-@><C-@>S :vert scs find t struct <C-R>=expand("<cword>")<CR> {<CR>$/;"	m
+<C-@><C-@>c	cscope_maps.vim	/^    nmap <C-@><C-@>c :vert scs find c <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@><C-@>d	cscope_maps.vim	/^    nmap <C-@><C-@>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@><C-@>e	cscope_maps.vim	/^    nmap <C-@><C-@>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@><C-@>f	cscope_maps.vim	/^    nmap <C-@><C-@>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>$/;"	m
+<C-@><C-@>g	cscope_maps.vim	/^    nmap <C-@><C-@>g :vert scs find g <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@><C-@>i	cscope_maps.vim	/^    nmap <C-@><C-@>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>$/;"	m
+<C-@><C-@>s	cscope_maps.vim	/^    nmap <C-@><C-@>s :vert scs find s <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@><C-@>t	cscope_maps.vim	/^    nmap <C-@><C-@>t :vert scs find t <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@>S	cscope_maps.vim	/^    nmap <C-@>S :scs find t struct <C-R>=expand("<cword>")<CR> {<CR>$/;"	m
+<C-@>c	cscope_maps.vim	/^    nmap <C-@>c :scs find c <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@>d	cscope_maps.vim	/^    nmap <C-@>d :scs find d <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@>e	cscope_maps.vim	/^    nmap <C-@>e :scs find e <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@>f	cscope_maps.vim	/^    nmap <C-@>f :scs find f <C-R>=expand("<cfile>")<CR><CR>$/;"	m
+<C-@>g	cscope_maps.vim	/^    nmap <C-@>g :scs find g <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@>i	cscope_maps.vim	/^    nmap <C-@>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>$/;"	m
+<C-@>s	cscope_maps.vim	/^    nmap <C-@>s :scs find s <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-@>t	cscope_maps.vim	/^    nmap <C-@>t :scs find t <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-\>S	cscope_maps.vim	/^    nmap <C-\\>S :cs find t struct <C-R>=expand("<cword>")<CR> {<CR>$/;"	m
+<C-\>c	cscope_maps.vim	/^    nmap <C-\\>c :cs find c <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-\>d	cscope_maps.vim	/^    nmap <C-\\>d :cs find d <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-\>e	cscope_maps.vim	/^    nmap <C-\\>e :cs find e <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-\>f	cscope_maps.vim	/^    nmap <C-\\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>$/;"	m
+<C-\>g	cscope_maps.vim	/^    nmap <C-\\>g :cs find g <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-\>i	cscope_maps.vim	/^    nmap <C-\\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>$/;"	m
+<C-\>s	cscope_maps.vim	/^    nmap <C-\\>s :cs find s <C-R>=expand("<cword>")<CR><CR>$/;"	m
+<C-\>t	cscope_maps.vim	/^    nmap <C-\\>t :cs find t <C-R>=expand("<cword>")<CR><CR>$/;"	m
