@@ -1,0 +1,63 @@
+{
+  "manifest": {
+    "name": "hyper-savetext",
+    "version": "1.1.1",
+    "description": "Export text to file plugin for Hyper",
+    "keywords": [
+      "hyper.app",
+      "hyper",
+      "hyperterm",
+      "savetext",
+      "hyper-plugin"
+    ],
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/neil-orans/hyper-savetext"
+    },
+    "scripts": {
+      "test": "jshint index.js",
+      "precommit": "lint-staged"
+    },
+    "lint-staged": {
+      "*.{js,json}": [
+        "prettier --print-width 120 --single-quote --write",
+        "git add"
+      ]
+    },
+    "author": {
+      "name": "Neil Orans",
+      "email": "norans@umich.edu"
+    },
+    "bugs": {
+      "url": "https://github.com/neil-orans/hyper-savetext/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "husky": "^0.14.3",
+      "jshint": "*",
+      "lint-staged": "^7.0.4",
+      "prettier": "^1.12.0"
+    },
+    "homepage": "https://github.com/neil-orans/hyper-savetext#readme",
+    "dependencies": {
+      "npm": "^5.8.0"
+    },
+    "_registry": "npm",
+    "_loc": "/home/ceyhan/.hyper_plugins/cache/v1/npm-hyper-savetext-1.1.1-c22fe31e606feca192bdde4eeba75d9037e413cd/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyper-savetext\n\n[![Build Status](https://travis-ci.org/neil-orans/hyper-savetext.svg?branch=master)](https://travis-ci.org/neil-orans/hyper-savetext) [![npm version](https://badge.fury.io/js/hyper-savetext.svg)](https://badge.fury.io/js/hyper-savetext)\n\n**hyper-savetext is a text export plugin for [Hyper](https://hyper.is/)**. It enables you to save/export text within the terminal to a text file. The feel and functionality of the plugin has been modeled after the same feature within macOS's Terminal.app. Currently, Hyper has been tested on macOS, Linux, and Windows with the stable version of Hyper 1.4.8 and 2.1.1.\n\n<p align=\"center\">\n<img src=\"./screenshots/screenshot1.jpg\" width=\"400px\" />\n<img src=\"./screenshots/screenshot2.png\" width=\"700px\" />\n</p>\n\n## Install\n\n#### Using Hyper's CLI\n\n```\nhyper install hyper-savetext\n```\n\n#### Manually\n\nTo install, edit `~/.hyper.js` and add `\"hyper-savetext\"` to `plugins`:\n\n```\nplugins: [\n  \"hyper-savetext\",\n  // other plugins...\n],\n```\n\n## Using the plugin\n\nYou have the option to save all the text in the terminal or just the selection. The save button is under Hyper's 'Shell' menu on macOS, and the 'File' menu on Window and Linux. Saving can also be done through the keybindings Cmd-S (Ctrl for Windows/Linux) or Cmd-Shift-S, which corresponds to saving all the terminal text or just the current selection, respectively.\n\n## Contributing\n\nFeel free to contribute to hyper-savetext by [requesting a feature](https://github.com/neil-orans/hyper-savetext/issues/new), [submitting a bug](https://github.com/neil-orans/hyper-savetext/issues/new) or contributing code.\n\nTo set up the project for development:\n\n1.  Clone the repo to `~/.hyper_plugins/local/hyper-savetext`\n2.  Add this to your `.hyper.js`:\n\n```js\n  localPlugins: [\n    // local plugins...\n    'hyper-savetext'\n  ],\n```\n\n3.  Reload terminal window\n\n## Authors\n\n* Neil Orans [@neil-orans](https://github.com/neil-orans)\n* Nick Morrison [@NicholasMorrison](https://github.com/nicholasmorrison)\n\n## Credit\n\nOriginally suggested by [@mhamdan95](https://github.com/mhamdan95) as a [plugin request](https://github.com/zeit/hyper/issues/2693) on Hyper's issue tracker.\n\n## Theme\n\n* [hyper-chesterish](https://github.com/henrikdahl/hyper-chesterish)\n\n## License\n\n[MIT](LICENSE.md)\n\n[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2018 Neil Orans, Nick Morrison\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-savetext/-/hyper-savetext-1.1.1.tgz#c22fe31e606feca192bdde4eeba75d9037e413cd",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-savetext/-/hyper-savetext-1.1.1.tgz",
+    "hash": "c22fe31e606feca192bdde4eeba75d9037e413cd",
+    "registry": "npm",
+    "packageName": "hyper-savetext"
+  },
+  "registry": "npm",
+  "hash": "c22fe31e606feca192bdde4eeba75d9037e413cd"
+}

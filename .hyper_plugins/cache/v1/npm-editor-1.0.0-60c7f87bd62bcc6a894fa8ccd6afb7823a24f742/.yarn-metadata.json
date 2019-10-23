@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "name": "editor",
+    "version": "1.0.0"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/editor/-/editor-1.0.0.tgz#60c7f87bd62bcc6a894fa8ccd6afb7823a24f742",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/editor/-/editor-1.0.0.tgz",
+    "hash": "60c7f87bd62bcc6a894fa8ccd6afb7823a24f742",
+    "registry": "npm",
+    "packageName": "editor"
+  },
+  "registry": "npm",
+  "hash": "60c7f87bd62bcc6a894fa8ccd6afb7823a24f742"
+}

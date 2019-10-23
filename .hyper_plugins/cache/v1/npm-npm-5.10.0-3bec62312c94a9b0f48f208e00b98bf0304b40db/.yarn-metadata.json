@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "name": "npm",
+    "version": "5.10.0"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/npm/-/npm-5.10.0.tgz#3bec62312c94a9b0f48f208e00b98bf0304b40db",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/npm/-/npm-5.10.0.tgz",
+    "hash": "3bec62312c94a9b0f48f208e00b98bf0304b40db",
+    "registry": "npm",
+    "packageName": "npm"
+  },
+  "registry": "npm",
+  "hash": "3bec62312c94a9b0f48f208e00b98bf0304b40db"
+}

@@ -1,0 +1,48 @@
+Arguments: 
+  /opt/Hyper/hyper /opt/Hyper/resources/bin/yarn-standalone.js install --no-emoji --no-lockfile --cache-folder /home/ceyhan/.hyper_plugins/cache
+
+PATH: 
+  undefined
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  10.2.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "hyper-plugins",
+    "description": "Auto-generated from `~/.hyper.js`!",
+    "private": true,
+    "version": "0.0.1",
+    "repository": "zeit/hyper",
+    "license": "MIT",
+    "homepage": "https://hyper.is",
+    "dependencies": {
+      "hyper-material-theme": "latest",
+      "hyper-search": "latest",
+      "hyper-pane": "latest",
+      "hyper-active-tab": "latest",
+      "hypergoogle": "latest",
+      "hyperfullscreen": "latest",
+      "hyperterm-dibdabs": "latest",
+      "hyper-autohide-tabs": "latest",
+      "hypercwd": "latest",
+      "hyper-tabs-enhanced": "latest",
+      "hyperminimal": "latest",
+      "hyper-statusline": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/home/ceyhan/.hyper_plugins/node_modules/hyperterm-dibdabs/node_modules/.bin'

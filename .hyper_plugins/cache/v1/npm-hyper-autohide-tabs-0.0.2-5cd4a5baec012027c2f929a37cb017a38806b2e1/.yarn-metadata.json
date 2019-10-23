@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "name": "hyper-autohide-tabs",
+    "version": "0.0.2",
+    "description": "Autohides the tab bar in hyperterm when there is only one tab",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/brychanrobot/hyper-autohide-tabs.git"
+    },
+    "author": {
+      "name": "Bryant Chandler",
+      "url": "http://github.com/brychanrobot"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/brychanrobot/hyper-autohide-tabs/issues"
+    },
+    "homepage": "https://github.com/brychanrobot/hyper-autohide-tabs#readme",
+    "_registry": "npm",
+    "_loc": "/home/ceyhan/.hyper_plugins/cache/v1/npm-hyper-autohide-tabs-0.0.2-5cd4a5baec012027c2f929a37cb017a38806b2e1/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyper-autohide-tabs\n\nThis plugin autohides tab bar when there is only one tab.\n\n![auto hiding](http://i.imgur.com/PVWCjO6.gif)\n\n## Usage\n\nAdd plugin to `~/.hyper.js`:\n\n```js\nplugins: [\n  'hyper-autohide-tabs'\n]\n```\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2016 Bryant Chandler\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-autohide-tabs/-/hyper-autohide-tabs-0.0.2.tgz#5cd4a5baec012027c2f929a37cb017a38806b2e1",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-autohide-tabs/-/hyper-autohide-tabs-0.0.2.tgz",
+    "hash": "5cd4a5baec012027c2f929a37cb017a38806b2e1",
+    "registry": "npm",
+    "packageName": "hyper-autohide-tabs"
+  },
+  "registry": "npm",
+  "hash": "5cd4a5baec012027c2f929a37cb017a38806b2e1"
+}

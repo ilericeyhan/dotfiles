@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "name": "lodash.union",
+    "version": "4.6.0"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz",
+    "hash": "48bb5088409f16f1821666641c44dd1aaae3cd88",
+    "registry": "npm",
+    "packageName": "lodash.union"
+  },
+  "registry": "npm",
+  "hash": "48bb5088409f16f1821666641c44dd1aaae3cd88"
+}

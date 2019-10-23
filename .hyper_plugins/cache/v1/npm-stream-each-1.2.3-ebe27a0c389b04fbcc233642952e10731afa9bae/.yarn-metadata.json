@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "name": "stream-each",
+    "version": "1.2.3"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/stream-each/-/stream-each-1.2.3.tgz#ebe27a0c389b04fbcc233642952e10731afa9bae",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/stream-each/-/stream-each-1.2.3.tgz",
+    "hash": "ebe27a0c389b04fbcc233642952e10731afa9bae",
+    "registry": "npm",
+    "packageName": "stream-each"
+  },
+  "registry": "npm",
+  "hash": "ebe27a0c389b04fbcc233642952e10731afa9bae"
+}
